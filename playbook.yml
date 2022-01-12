@@ -4,4 +4,9 @@
   tasks: 
   - name: test-task
     shell: uptime
+  - name: Pause for 5 minutes to build app cache
+    pause:
+      minutes: 5
+  - name: test-task
+    shell: uptime    
   
